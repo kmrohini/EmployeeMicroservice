@@ -1,0 +1,11 @@
+### Spring properties
+# Service registers under this name
+spring:
+  application:
+    name: accounts-microservice
+  datasource:
+     url: jdbc:mysql://localhost/employeedb
+     username: root 
+     password: root
+     platform: mysql
+     initialization-mode: always
